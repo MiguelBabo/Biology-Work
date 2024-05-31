@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+    overflow-x: hidden;
+}
+
+html{ scroll-behavior: smooth; }
+
+.subtitles{
+    font-size: 35px;
+}
+
+.texts{
+    font-size: 20px;
+    opacity: .7;
+}
+
+.custom-shape-divider-bottom-1717081044 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+.custom-shape-divider-bottom-1717081044 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 69px;
+}
+.custom-shape-divider-bottom-1717081044 .shape-fill {
+    fill: #314724;
+}
+
+.custom-shape-divider-top-1717114479 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+.custom-shape-divider-top-1717114479 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 69px;
+}
+.custom-shape-divider-top-1717114479 .shape-fill {
+    fill: #314724;
+}
+
+#home{
+    width: 100vw;
+    /* height: 65vh; */
+    /* padding: 150px; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    background: #314724;
+    color: #F2E8CF;
+}
+
+#home #title1{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../images/earth.jpg");
+    background-color: hsla(0, 0%, 0%, 0.75);
+    background-blend-mode: multiply;
+    padding-top: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 50px;
+    font-size: 30px;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+#home #title1 h1{
+    text-align: center;
+    font-family: "Sacramento", sans-serif;
+    font-size: 115px;
+    padding: 10px;
+}
+
+#whatisit{
+    width: 100vw;
+    min-height: 50vh;
+    padding: 0 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    text-align: center;
+    font-size: 30px;
+    background: #314724;
+    color: #F2E8CF;
+}
+
+#whatisit a{
+    color: #F2E8CF;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    background: #BC4749;
+    border-radius: 8px;
+    box-shadow: 0 5px 0 #993a3b;
+    transition: .2s;
+}
+#whatisit a:hover{
+    box-shadow: 0 0 0 transparent;
+    transform: translateY(5px);
+    transition: .2s;
+}
+
+#howitworks{
+    width: 100vw;
+    /* height: 80vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20vh;
+    background: #F2E8CF;
+}
+
+#howitworks #content1{
+    padding: 10px 450px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#howitworks #content1 h4{
+    color: #314724;
+}
+
+#howitworks #content1 a{
+    max-width: 210px;
+    color: #F2E8CF;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    background: #BC4749;
+    border-radius: 8px;
+    box-shadow: 0 5px 0 #993a3b;
+    transition: .2s;
+}
+
+#howitworks #content1 a:hover{
+    box-shadow: 0 0 0 #F2E8CF;
+    transform: translateY(5px);
+    transition: .2s;
+}
+
+#humanimpacts{
+    width: 100vw;
+    /* height: 50vh; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+    padding: 165px;
+    background: #314724;
+    color: #F2E8CF;
+}
+
+#humanimpacts a{
+    max-width: 210px;
+    color: #F2E8CF;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    background: #BC4749;
+    border-radius: 8px;
+    box-shadow: 0 5px 0 #993a3b;
+    transition: .2s;
+}
+#humanimpacts a:hover{
+    box-shadow: 0 0 0 transparent;
+    transform: translateY(5px);
+    transition: .2s;
+}
